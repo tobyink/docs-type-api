@@ -76,6 +76,10 @@ Some tools can make use of objects implementing Type::API::Constraint::Coercible
 
 =item *
 
+L<Smart::Args>
+
+=item *
+
 L<Type::Tie>
 
 =back
