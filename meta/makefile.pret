@@ -1,0 +1,8 @@
+# This file provides instructions for packaging.
+
+`Type-API`
+	perl_version_from m`Type::API`;
+	version_from      m`Type::API`;
+	readme_from       m`Type::API` ;
+	.
+

@@ -1,0 +1,18 @@
+# This file contains general metadata about the project.
+
+@prefix : <http://usefulinc.com/ns/doap#>.
+
+`Type-API`
+	:programming-language "Perl" ;
+	:shortdesc            "a common interface for type constraints, based on observed patterns (documentation only)";
+	:homepage             <https://metacpan.org/release/Type-API>;
+	:download-page        <https://metacpan.org/release/Type-API>;
+	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=Type-API>;
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/docs-type-api> ];
+	:created              2013-06-22;
+	:license              <http://dev.perl.org/licenses/>;
+	:maintainer           cpan:TOBYINK.
+
+<http://dev.perl.org/licenses/>
+	dc:title  "the same terms as the perl 5 programming language system itself".
+
