@@ -339,8 +339,8 @@ and L<Variable::Declaration>.
 The constructor supports named parameters called C<name> (a string),
 C<constraint> (a coderef expected to return a boolean), and C<parent>
 (a blessed Type::Nano object). Any other parameters passed to the
-constructor will be stored in the blessed hashred returned, but are ignored
-by Type::Nano.
+constructor will be stored in the blessed hashref returned, but are ignored
+by Type::Nano. (Subclasses may use them.)
 
 =back
 
