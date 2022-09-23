@@ -1,1 +1,17 @@
+# This file provides instructions for packaging.
 
+@prefix deps: <http://ontologi.es/doap-deps#> .
+
+`Type-API`
+	deps:runtime-requirement [
+		deps:on "perl 5.004"^^deps:CpanId;
+	];
+	deps:test-requirement [
+		deps:on "Test::More 0.96"^^deps:CpanId;
+		comment "I don't have the patience to maintain a test suite that runs on ancient versions of Test::More."@en;
+	];
+	deps:develop-suggestion [
+		deps:on "Dist::Inkt::Profile::TOBYINK"^^deps:CpanId;
+		comment "This is used for building the release tarball."@en;
+	];
+.
