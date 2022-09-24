@@ -7,7 +7,7 @@ use vars qw( %TYPES $AUTHORITY $VERSION @ISA @EXPORT_OK );
 use Scalar::Util ();
 
 $AUTHORITY = 'cpan:TOBYINK';
-$VERSION   = '1.000';
+$VERSION   = '1.001';
 
 require Exporter;
 @ISA = qw( Exporter );

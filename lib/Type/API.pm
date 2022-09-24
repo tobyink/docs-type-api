@@ -5,7 +5,7 @@ use warnings;
 use vars qw( $AUTHORITY $VERSION );
 
 $AUTHORITY = "cpan:TOBYINK";
-$VERSION   = "1.000";
+$VERSION   = "1.001";
 
 1;
 
